@@ -84,8 +84,7 @@ struct ContentView: View {
             }
         } message: {
             Text("You Won! 🎉")
-                .font(.largeTitle.bold())
-                .foregroundStyle(.cyan)
+            
         }
     }
     func flagtapped(_ number: Int) {
